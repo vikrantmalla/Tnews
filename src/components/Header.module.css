@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+input {
+  width: 100%;
+
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+@media (min-width: 62em) {
+  input {
+    width: 250px;
+  }
+}

@@ -1,0 +1,52 @@
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+h1 {
+  text-align: center;
+}
+.card {
+  min-width: 20rem;
+  width: 40vw;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card div {
+  margin-bottom: 1rem;
+}
+.header h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.body p {
+  font-weight: 300;
+}
+.body p span {
+  font-weight: 500;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #ec775f;
+  color: #fff;
+}
+@media (min-width: 62em) {
+  .card {
+    padding: 2.5rem 3rem;
+  }
+}
